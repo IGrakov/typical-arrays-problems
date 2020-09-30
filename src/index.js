@@ -26,6 +26,17 @@ const max = (arr = []) => {
     return maxItem;
 }
 
+const avg = (arr = []) => {
+    if (arr.length === 0) {
+        return 0;
+    }
+
+    let sumOfItems = 0;
+    for (let i = 0; i < arr.length; i++) {
+            sumOfItems += arr[i];
+    }
+    return sumOfItems / arr.length;
+}
 
 exports.min = function min (array) {
   return 0;
