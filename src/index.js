@@ -1,4 +1,4 @@
-const min = (arr = []) => {
+function min (...arr) {
     if (arr.length === 0) {
         return 0;
     }
@@ -12,7 +12,7 @@ const min = (arr = []) => {
     return minItem;
 }
 
-const max = (arr = []) => {
+function max (...arr) {
     if (arr.length === 0) {
         return 0;
     }
@@ -26,7 +26,7 @@ const max = (arr = []) => {
     return maxItem;
 }
 
-const avg = (arr = []) => {
+function avg (...arr) {
     if (arr.length === 0) {
         return 0;
     }
