@@ -20,7 +20,7 @@ const max = (arr = []) => {
     let maxItem = arr[0];
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] > maxItem) {
-            minItem = arr[i];
+            maxItem = arr[i];
         }
     }
     return maxItem;
