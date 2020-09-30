@@ -1,3 +1,17 @@
+const min = (arr = []) => {
+    if (arr.length === 0) {
+        return 0;
+    }
+
+    let minItem = arr[0];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < minItem) {
+            minItem = arr[i];
+        }
+    }
+    return minItem;
+}
+
 
 exports.min = function min (array) {
   return 0;
